@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "393425583686",
+    "firebase_url": "https://latihanfirebase.firebaseio.com",
+    "project_id": "latihanfirebase",
+    "storage_bucket": "latihanfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393425583686:android:f6d6ef1afed2afab",
+        "android_client_info": {
+          "package_name": "id.prihantoro.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393425583686-jos3dd9n6q3ejiplfkbttc3njoo6qba3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK_4v6PEOiPuwcCyY_49zeYgP9qsx7YpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393425583686:android:f66eff895fed2c6e",
+        "android_client_info": {
+          "package_name": "id.prihantoro.bejometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393425583686-jos3dd9n6q3ejiplfkbttc3njoo6qba3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK_4v6PEOiPuwcCyY_49zeYgP9qsx7YpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

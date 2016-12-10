@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bejometer</string>
+    <string name="nama1hint">Nama anda</string>
+    <string name="tanggal1hint">Tanggal lahir anda</string>
+    <string name="nama2hint">Nama \'dia\'</string>
+    <string name="tanggal2hint">Tanggal lahir \'dia\'</string>
+    <string name="nama_tebak_gender">Nama orang bukan hewan</string>
+    <string name="error_message">Mohon maaf, di Indonesia dilarang menikah dengan sesama jenis.\nTerimakasih :*</string>
+    <string name="about">Sebagai sebuah alat ukur, Bejometer selalu memberikan hasil yang konsisten. Bejometer menghitung dengan seksama setiap detil nama dan tanggal yang dimasukkan, tidak asal mengeluarkan angka acak sebagai hasil.</string>
+    <string name="about1">Satu hal yang perlu digarisbawahi dari Bejometer adalah, bahwa hasil perhitungannya bukanlah ramalan. Bejometer sekedar mengukur dengan perhitungan matematis.</string>
+    <string name="what_is_news">Versi 1.0\n-Bejometer, mengukur persentase jodoh anda\n-Tebak gender</string>
+    <string name="contact">Contact us:\nEmail: bejometer@beringin.net\nWebsite: \nbit.ly/bejometer\nbit.ly/tebakgender\nbit.ly/konsultasibejometer</string>
+</resources>
