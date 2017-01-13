@@ -1,6 +1,7 @@
 package id.prihantoro.bejometer.adapter;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,6 +66,7 @@ public class KonsultasiAdapter extends RecyclerView.Adapter<KonsultasiAdapter.Ko
             nama = (TextView) itemView.findViewById(R.id.nama);
             persentase = (TextView) itemView.findViewById(R.id.persentase);
             layout = (RelativeLayout) itemView.findViewById(R.id.layout);
+            nama.setPaintFlags(nama.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         }
     }
 }
