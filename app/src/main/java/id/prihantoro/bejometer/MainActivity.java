@@ -23,6 +23,8 @@ import java.util.List;
 
 import id.prihantoro.bejometer.api.eventresult.BejoLaunchResult;
 import id.prihantoro.bejometer.fragment.BejometerFragment_;
+import id.prihantoro.bejometer.fragment.KonsultasiFragment;
+import id.prihantoro.bejometer.fragment.KonsultasiFragment_;
 import id.prihantoro.bejometer.fragment.TebakGenderFragment_;
 import id.prihantoro.bejometer.util.DateTimeUtils;
 
@@ -49,10 +51,12 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(BejometerFragment_.builder().arg("tanggalSaiki", tanggalSaiki).build(), null);
         adapter.addFragment(TebakGenderFragment_.builder().arg("tanggalSaiki", tanggalSaiki).build(), null);
+        adapter.addFragment(KonsultasiFragment_.builder().arg("tanggalSaiki", tanggalSaiki).build(), null);
         viewPager.setAdapter(adapter);
         tabs.setupWithViewPager(viewPager);
         tabs.getTabAt(0).setIcon(R.drawable.ic_love);
         tabs.getTabAt(1).setIcon(R.drawable.gender);
+        tabs.getTabAt(2).setIcon(R.drawable.ic_action_action_search);
     }
 
     @Override
